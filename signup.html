@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html"/>
+	<meta charset="utf-8"/>
+	<title>Sign up Form</title>
+	<link rel="stylesheet" href="signup.css">
+	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+	</head>
+<body>
+	<div class="login-page">
+		<div class="form">
+		<form class="register-form">
+			<input type="text" placeholder="name"/>
+			<input type="text" placeholder="password"/>
+			<input type="text" placeholder="email id"/> 
+			<input type="text" placeholder="university name"/> 
+			<input type="text" placeholder="contact number"/>
+			<input type="text" placeholder="Gender"/> 
+			<a href="details.html"><input type="button" value="Register Now"/></a><br><br>		
+			<p class="message">Already registered? <a href="#">Sign-up</a></p> 
+</form>
+
+<form class="login-form">
+	<input type="text" placeholder="user name"/>
+	<input type="text" placeholder="email id"/>
+	<input type="text" placeholder="password"/>
+    <a href="congo.html"><input type="button" value="Sign-up" /></a><br><br>
+	<p class="message">Not Registered? <a href="#">Register</a></p>
+
+</form>
+</div>
+</div>
+
+<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+
+<script>
+	$('.message a').click(function(){
+		$('form').animate({height: "toggle",opacity:"toggle"},"slow");
+	});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+	background-image: url(Image.jpg) ;
+	
+	background-size: cover;
+	background-position: center;
+}
+.login-page{
+	width: 360px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 80px;
+	margin-left: 360px;
+	
+}
+ .form{
+	position: relative;
+	z-index: 1;
+	background: #000;
+	width: 360px;
+	text-align: center;
+	padding: 45px;
+	margin: 0 auto 100px;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+.form input{
+	font-family: "roboto", sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	font-size: 16px;
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 0 0 15px;
+	border: 5px;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+	font-weight: bolder;
+	transition: border 0.5s;
+   
+
+}
+input[type=button] {
+	font-family: "roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #585858;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 25px;
+	cursor: pointer;
+	border-radius: 15px;
+	font-weight: bold;
+}
+input[type=button]:hover{
+	background: #0101DF;
+	box-shadow: #585858
+}
+.form .message{
+	margin: 15px 0 0;
+	color: aliceblue;
+	font-size: 15px;
+	font-weight: bold;
+}
+.form .message a{
+	color: #DF013A;
+	text-decoration: blink;
+	font-weight: bold;
+	font-style: italic;
+}
+.form .message a:hover, .form message a:active{
+	background: rgba(44,62,80,0.7);
+}
+.form .register-form{
+	display: none;
+}
+
+

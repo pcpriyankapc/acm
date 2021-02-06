@@ -1,0 +1,27 @@
+body{
+	background-image: url(image.jpg) ;
+	background-size: cover;
+}
+a{
+	color: yellow;
+	font-family: Tahoma, geneva, sans-serif;
+	margin-left: 30px;
+	text-decoration: underline;
+}
+.details{
+	background: #000;
+	padding: 40px;
+	height: 200px;
+	margin-left: 180px;
+	margin: 0 auto;
+	margin-top: 120px;
+	width: 240px;
+	border-radius: 15px;
+}
+.form a:hover, .form a:active{
+	background: #F3F781;
+}
+h2{
+	margin-top: 50px;
+	margin-left: 10px;
+}
